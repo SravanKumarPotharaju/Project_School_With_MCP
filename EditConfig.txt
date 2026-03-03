@@ -1,0 +1,19 @@
+{ 
+  "mcpServers": { 
+    "Project-school-with-mcp": { 
+      "command": "/usr/local/bin/python3 path", 
+      "args": [ 
+        "/Users/YOUR_USERNAME/project-school-mcp/server.py" 
+      ], 
+      "env": { 
+        "PROJECT_SCHOOL_API_KEY": "your_actual_api_key_here", 
+        "CURRENT_USER_ID": "your_user_id_here", 
+        "CURRENT_USER_NAME": "Your Name Here" 
+      } 
+    } 
+  }, 
+  "preferences": { 
+    "sidebarMode": "chat", 
+    "coworkScheduledTasksEnabled": false 
+  } 
+} 
