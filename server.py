@@ -16,8 +16,8 @@ import mcp.server.stdio
 # ============================================================================
 # CONFIGURATION
 # ============================================================================
-# BASE_URL = "https://projectschool.alumnx.com"
-BASE_URL = "http://localhost:8001"  # Local testing
+BASE_URL = "https://projectschool.alumnx.com"
+# BASE_URL = "http://localhost:8001"  # Local testing
 API_KEY = os.environ.get("PROJECT_SCHOOL_API_KEY", "")
 
 # ============================================================================
